@@ -1,0 +1,24 @@
+<HTML>
+<TITLE>WarCraft</TITLE>
+<table width="100%">
+
+<tr>
+<td align="right"><progress value="100" max="100" id="Hero1"></progress></td>
+<td><progress value="100" max="100" id="Hero2"></progress></td>
+</tr>
+
+<tr>
+<td align="right"><img src="http://img1.wikia.nocookie.net/__cb20100224132527/wow/nl/images/2/24/Magniashbringercomic.JPG" width="150"></td>
+<td><img src="http://image.blingee.com/images18/content/output/000/000/000/6e2/643896720_910492.gif" width="150"></td>
+</tr>
+
+<tr>
+<td align="right"><div id="B1"><input type="submit" value="Fight" onclick="document.getElementById('Hero1').value-=20;if (document.getElementById('Hero1').value==0){alert('Flowers Victory!');window.location.reload(true);};document.getElementById('B1').style.display = 'none';document.getElementById('B2').style.display = ''"></div></td>
+<td><div id="B2"><input type="submit" value="Fight" 
+onclick="
+document.getElementById('Hero2').value-=20;
+if (document.getElementById('Hero2').value==0){alert('Flowers Victory!');window.location.reload(true);}document.getElementById('B2').style.display = 'none';document.getElementById('B1').style.display = ''"></div></td>
+</tr>
+
+</table>
+</HTML>
